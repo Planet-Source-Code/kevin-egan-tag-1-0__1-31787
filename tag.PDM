@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=TAG Package
+
+
+[Package|TAG Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\vb\TAG\Package
+
+[Package|TAG Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TAG Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TAG Package|Files Found]
+
+[Package|TAG Package|Files Released]
+
+[Package|TAG Package|Missing Dependency Information]
+
+[Package|TAG Package|Out-of-Date Dependency Information]
+
+[Package|TAG Package|Files Added]
+d:\vb\tag\help.html=
+D:\vb\TAG\README.txt=
+
+[Package|TAG Package|Files Removed]
+
+[Package|TAG Package|Files In Project]
+D:\vb\TAG\tag.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\vb\TAG\help.html=Yes
+D:\vb\TAG\README.txt=Yes
+
+[Package|TAG Package|Configure Registry Files]
+Applicable=No
+
+[Package|TAG Package|Configure Remote Servers]
+Applicable=No
+
+[Package|TAG Package|Install Locations]
+D:\vb\TAG\tag.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\vb\TAG\help.html=$(AppPath)
+D:\vb\TAG\README.txt=$(AppPath)
+
+[Package|TAG Package|Configure Shared Files]
+Applicable=Yes
+D:\vb\TAG\tag.exe=No
+D:\vb\TAG\help.html=No
+D:\vb\TAG\README.txt=No
+
+[Package|TAG Package|Distribution]
+Type=single
+Size=
+Title=TAG 1.0
+
+[Package|TAG Package|Package]
+PackageFolder=D:\vb\TAG\Package
+ProjectFolder=D:\vb\TAG
+ServerSideCab=
+File1=D:\vb\TAG\Package\setup.exe
+File2=D:\vb\TAG\Package\Setup.Lst
+File3=D:\vb\TAG\Package\tag.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|TAG Package|IconGroups]
+Group0=TAG 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|TAG Package|TAG 1.0]
+Icon1=tag.EXE
+Title1=TAG 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
